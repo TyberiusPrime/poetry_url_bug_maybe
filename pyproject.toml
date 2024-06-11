@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "poetry test"
+version = "0.1.0"
+description = ""
+authors = ["Tyberius Prime <tyberius_prime@coonabibba.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dppd = {url = "https://files.pythonhosted.org/packages/4b/43/0d1b0135841e4f2b9a3208df24abef52dd368be166bb150369d2cd6c9bed/dppd-0.24.tar.gz"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
